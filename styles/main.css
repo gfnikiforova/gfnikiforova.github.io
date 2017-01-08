@@ -1,0 +1,92 @@
+body {
+	background-color: #d8e0bb;
+	margin: 0px auto;
+	width: 1000px;
+	font-family: Verdana, "Segoe UI";
+}
+
+.main {
+	display: flex;
+	min-height: 500px;
+	height: auto;
+	margin: 10px 0;
+}
+
+.header {
+	user-select: none;
+	cursor: default;
+	display: flex;	
+	height: 150px;
+	padding: 20px;
+	box-sizing: border-box;	
+	background-image: url("../images/logo.png");	
+	color: #984646;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: right;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.sidebar {		
+	cursor: default;
+	width: 300px;
+	padding: 10px;			
+	box-sizing: border-box;
+	background-color: #7268a6;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;	
+	box-sizing: border-box;
+}
+
+.footer {
+	display: flex;
+	align-items: center;	
+	justify-content: flex-end;
+	padding: 10px;
+	height: 35px;
+	box-sizing: border-box;
+	background-color: #636b46;
+	color: #eaeaea;
+	font-family: Verdana, "Segoe UI";
+	font-size: 13px;
+}
+
+a {
+	color: inherit;
+	font: inherit;
+}
+
+.menu {
+	cursor: pointer;
+	background-color: #9dabc3;
+	color: black;
+	margin: 5px 0;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.menu:hover {
+	background-color: #8c3260;
+	color: white;
+}
+
+.card {
+	background-color: white;	
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.card-header {
+	background-color: #cda34f;
+	padding: 10px;
+}
