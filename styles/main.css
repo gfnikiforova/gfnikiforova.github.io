@@ -34,6 +34,7 @@ body {
 	padding: 10px;			
 	box-sizing: border-box;
 	background-color: #7268a6;
+	font-family: "Segoe UI";
 }
 
 .content {
@@ -69,13 +70,18 @@ a {
 	margin: 5px 0;
 	display: block;
 	width: 100%;
-	padding: 5px;
+	padding: 7px 10px;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 .menu:hover {
 	background-color: #8c3260;
 	color: white;
+}
+
+#active {
+	background-color: #8c3260;
 }
 
 .card {
@@ -84,9 +90,35 @@ a {
 	height: 100%;
 	padding: 10px;
 	box-sizing: border-box;
+	font-size: 14px;
+	white-space: pre-line;
+	word-break: break-word;
+	line-height: 20px;
 }
 
 .card-header {
 	background-color: #cda34f;
-	padding: 10px;
+	padding: 10px;	
+	font-weight: bold;
+	text-align: center;
+}
+
+#photo {
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	pointer-events: none;
+}
+
+.title {
+	font-size: 18px;
+	color: #9c2525;
+	font-weight: bold;
+}
+
+.text {
+	white-space: pre-line;
+	word-break: break-word;
+	line-height: 20px;
 }
