@@ -91,9 +91,6 @@ a {
 	padding: 10px;
 	box-sizing: border-box;
 	font-size: 14px;
-	white-space: pre-line;
-	word-break: break-word;
-	line-height: 20px;
 }
 
 .card-header {
@@ -121,4 +118,16 @@ a {
 	white-space: pre-line;
 	word-break: break-word;
 	line-height: 20px;
+}
+
+.gallery-thumb {	
+	width: 100%;	
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-caption {
+	font-size: 15px;	
 }

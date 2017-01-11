@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Сайт учителя русского языка и литературы</title>
-		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/highslide.css" />
+		<script type="text/javascript" src="scripts/highslide/highslide-with-gallery.js"></script>
 		<script src="scripts/script.js"></script>
 	</head>
 	<body>
@@ -21,7 +23,58 @@
 			<div class="content">
 				<div class="card-header">Галерея</div>
 				<div class="card">
-
+					<div class="highslide-gallery">
+						<a id="thumb1" href="images/gallery1/1.jpg" class="highslide gallery-thumb" onclick="return hs.expand(this, { slideshowGroup: 1 } )">
+							<img src="images/gallery1/thumbnail.jpg" title="Начать просмотр" />
+							<div class="gallery-caption">Встреча с выпускниками</div>
+						</a>
+						<div class="hidden-container">
+							<a href="images/gallery1/2.jpg" class="highslide" 
+								onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>	
+							<a href="images/gallery1/3.jpg" class="highslide" 
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>
+							<a href="images/gallery1/4.jpg" class="highslide" 
+								onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>	
+							<a href="images/gallery1/5.jpg" class="highslide" 
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>
+							<a href="images/gallery1/6.jpg" class="highslide" 
+								onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>	
+							<a href="images/gallery1/7.jpg" class="highslide" 
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>
+							<a href="images/gallery1/8.jpg" class="highslide" 
+								onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>	
+							<a href="images/gallery1/9.jpg" class="highslide" 
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>
+							<a href="images/gallery1/10.jpg" class="highslide" 
+								onclick="return hs.expand(this, { thumbnailId: 'thumb1', slideshowGroup: 1 })"></a>								
+						</div>
+					</div><br>
+					<div class="highslide-gallery">
+						<a id="thumb2" href="images/gallery2/1.jpg" class="highslide gallery-thumb" onclick="return hs.expand(this, { slideshowGroup: 2 } )">
+							<img src="images/gallery2/thumbnail.jpg" title="Начать просмотр" />
+							<div class="gallery-caption">Поездка в Болдино</div>
+						</a>
+						<div class="hidden-container">
+							<a href="images/gallery2/2.jpg" class="highslide" 
+								onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>	
+							<a href="images/gallery2/3.jpg" class="highslide"
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+							<a href="images/gallery2/4.jpg" class="highslide"
+								onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>	
+							<a href="images/gallery2/5.jpg" class="highslide"
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+							<a href="images/gallery2/6.jpg" class="highslide"
+								onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>	
+							<a href="images/gallery2/7.jpg" class="highslide"
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+							<a href="images/gallery2/8.jpg" class="highslide"
+								onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>	
+							<a href="images/gallery2/9.jpg" class="highslide"
+								onclick="return hs.expand(this,	{ thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+							<a href="images/gallery2/10.jpg" class="highslide"
+								onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>								
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
