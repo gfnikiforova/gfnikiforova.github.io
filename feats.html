@@ -3,8 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Сайт учителя русского языка и литературы</title>
-		<link rel="stylesheet" href="styles/main.css">
-		<script src="scripts/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" type="text/css" href="styles/highslide.css" />
+		<script type="text/javascript" src="scripts/highslide/highslide-with-gallery.js"></script>
+		<script>
+			hs.graphicsDir = 'scripts/highslide/graphics/';
+			hs.align = 'center';
+			hs.transitions = ['expand', 'crossfade'];
+			hs.wrapperClassName = 'dark borderless floating-caption';
+			hs.fadeInOut = true;
+			hs.dimmingOpacity = .75;
+			
+			if (hs.addSlideshow) hs.addSlideshow({				
+				interval: 5000,
+				repeat: false,
+				useControls: true,
+				fixedControls: 'fit',
+				overlayOptions: {
+					opacity: .6,
+					position: 'bottom center',
+					hideOnMouseOut: true
+				}
+			});
+		</script>
 	</head>
 	<body>
 		<div class="header">			
@@ -21,7 +42,65 @@
 			<div class="content">
 				<div class="card-header">Мои достижения</div>
 				<div class="card">
-					
+					<div class="highslide-gallery gallery-container">
+						<a href="images/feats/1.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/1.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/2.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/2.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/3.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/3.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/4.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/4.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/5.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/5.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/6.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/6.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/7.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/7.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/8.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/8.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/9.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/9.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/10.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/10.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/11.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/11.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/12.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/12.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/13.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/13.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/14.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/14.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/15.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/15.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/16.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/16.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/17.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/17.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/18.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/18.png" title="Увеличить" />							
+						</a>
+						<a href="images/feats/19.png" class="highslide thumbnail" onclick="return hs.expand(this)">
+							<img src="images/feats/19.png" title="Увеличить" />							
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
